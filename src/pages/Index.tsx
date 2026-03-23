@@ -28,6 +28,10 @@ const Index = () => {
     <div className="relative min-h-screen overflow-hidden bg-background">
       <StarField />
 
+      {/* Logo */}
+      <div className="fixed top-4 left-4 z-50">
+        <img src={sphaLogo} alt="Spha Apps Logo" className="w-16 h-16 md:w-20 md:h-20 drop-shadow-[0_0_12px_hsl(var(--primary)/0.5)]" />
+      </div>
       {/* Hero Section */}
       <section className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-12">
         {/* Glow orb behind title */}
