@@ -4,6 +4,7 @@ import gameLevel1 from "@/assets/game-level1.jpg";
 import gameLevel2 from "@/assets/game-level2.jpg";
 import gameLevel3 from "@/assets/game-level3.jpg";
 import gameLevel5 from "@/assets/game-level5.jpg";
+import sphaLogo from "@/assets/spha-logo.png";
 import { Gamepad2, Zap, Shield, Target, Layers, Rocket } from "lucide-react";
 
 const GAME_URL = "https://sphah.netlify.app/";
@@ -27,6 +28,10 @@ const Index = () => {
     <div className="relative min-h-screen overflow-hidden bg-background">
       <StarField />
 
+      {/* Logo */}
+      <div className="fixed top-4 left-4 z-50">
+        <img src={sphaLogo} alt="Spha Apps Logo" className="w-16 h-16 md:w-20 md:h-20 drop-shadow-[0_0_12px_hsl(var(--primary)/0.5)]" />
+      </div>
       {/* Hero Section */}
       <section className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-12">
         {/* Glow orb behind title */}
