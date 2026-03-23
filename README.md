@@ -39,7 +39,7 @@ bun run dev # or npm run dev
 
 ## 🎮 Play Now
 
-The game is hosted and ready to play! [Insert your deployment link here, e.g., on Vercel or Netlify]
+The game is hosted and ready to play! [https://sprightly-mochi-72a064.netlify.app](https://sprightly-mochi-72a064.netlify.app)
 
 ---
 
