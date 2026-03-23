@@ -4,6 +4,7 @@ import gameLevel1 from "@/assets/game-level1.jpg";
 import gameLevel2 from "@/assets/game-level2.jpg";
 import gameLevel3 from "@/assets/game-level3.jpg";
 import gameLevel5 from "@/assets/game-level5.jpg";
+import sphaLogo from "@/assets/spha-logo.png";
 import { Gamepad2, Zap, Shield, Target, Layers, Rocket } from "lucide-react";
 
 const GAME_URL = "https://sphah.netlify.app/";
